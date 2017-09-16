@@ -31,6 +31,7 @@ $(document).ready(function() {
 	$('.fade').click(function() {
 		$('.bye').fadeOut();
 	});
+	// change font of WOAH!
 	$('.font-change').hover(function() {
 		$('.font-change').toggleClass("font");
 	});
