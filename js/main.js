@@ -19,7 +19,19 @@ $(document).ready(function() {
 	$('.add-content').click(function() {
 		$('.list').append("<li>" + $(".content").val() + "</li>");
 	});
+	// when you hover over the word helloooooo, the background color will toggle/change to green
 	$('.hover').hover(function() {
 		$('.hover').toggleClass("back");
+	});
+	// when you hover the phrase with class pup, itll slide up and away
+	$('.pup').hover(function() {
+		$('.pup').slideUp();
+	});
+	// when you click the goodbye button the word fades out
+	$('.fade').click(function() {
+		$('.bye').fadeOut();
+	});
+	$('.font-change').hover(function() {
+		$('.font-change').toggleClass("font");
 	});
 });
